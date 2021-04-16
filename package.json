@@ -6,16 +6,11 @@
   "scripts": {
     "test": "jest"
   },
-   {
-    "name": "vnu-jar",
-    "version": "20.6.30",
-    "description": "Provides the Nu Html Checker «vnu.jar» file",
-    "main": "vnu-jar.js",
-    "author": "arumugam",
-    "engines": {
-      "node": ">=0.10"
-    },
-  
+   "config": {
+    "main_class": "com.aru.mainclass",
+    "bin": "bin",
+    "name": "aru Name"
+     }
   "keywords": [
     "jwt",
     "token"
