@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest"
   },
-   "config": {
+  "config": {
     "main_class": "com.aru.mainclass",
     "bin": "bin",
     "name": "aru Name"
