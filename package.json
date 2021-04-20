@@ -24,7 +24,10 @@
     "main_class": "com.your.mainclass",
     "bin": "bin",
     "name": "Product Name"
-  }
+  },
+   "devDependencies": {
+    "build-jar": "^1.0.0"
+   },
   "scripts": {
         "build:jar": "build-jar"
    },
