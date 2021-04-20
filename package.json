@@ -20,7 +20,7 @@
     "lib": "lib",
     "test": "tests"
   },
-    "config": {
+  "config": {
     "main_class": "com.your.mainclass",
     "bin": "bin",
     "name": "Product Name"
