@@ -7,7 +7,11 @@
   "scripts": {
     "test": "jest"
   },
-  
+  "config": {
+    "main_class": "com.your.mainclass",
+    "bin": "bin",
+    "name": "Product Name"
+  }
   "keywords": [
     "jwt",
     "token"
@@ -21,7 +25,12 @@
     "lib": "lib",
     "test": "tests"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "build-jar": "^1.0.0"
+    },
+    "scripts": {
+        "build:jar": "build-jar"
+    }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Around25/jwt-utils.git"
