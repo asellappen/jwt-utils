@@ -5,7 +5,11 @@
   "main": "index.js",
   "bin": "./bin/build-jar",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "install storage" : "lib/Storage.js",
+    "install token" : "lib/Token.js ",
+    "install commit" : "lib/Token.js",
+    "test token" : "tests/Token.test.js"
   },
   "keywords": [
     "jwt",
